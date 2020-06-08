@@ -1,0 +1,30 @@
+/** alinea el texto los titulos de la etiqueta section con un id llamado blog**/
+
+#blog h3,h4{
+    
+    text-align: center;
+}
+
+/** estilos del contenedor que esta dentro del blog**/
+#blog .contenedor{
+    
+    /**accion para que las img esten en una sola linea**/
+    display: flex;
+    justify-content: center;
+    /**los elementos que no caben quede uno debajo del otro**/
+    flex-wrap: wrap;
+}
+
+/** los articulos que estan dentro del blog se les da un margin**/
+
+#blog article{
+    
+    margin: 15px;
+}
+
+/** estilos de las imagenes que estan dentro del blog**/
+#blog img{
+    
+    width: 100%;
+    max-width:  280px;
+}

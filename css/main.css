@@ -1,0 +1,94 @@
+@import url(http://fonts.googleapis.com/css?family=Open*Sans);
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    
+    /**si desea darle padding o margin a un elemento sea dentro del mismo modelo de caja al momento de hacer responsive los elementos encajas**/
+    
+
+    box-sizing: border-box;
+}
+
+/** integra la fuente o tipo de letra que va tener el cuerpo de la pagina**/
+
+body {
+    
+    font-family: 'Open Sans', sans-serif;
+}
+
+/** se le da estilos a toda la cabecera**/
+
+header{
+    
+    /**ancho**/
+    width: 100%;
+    
+    /**alto**/
+    height: 50px;
+    background: #333;
+    color: #fff;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+/**Modifico y e doy estilo a todas las clases contenedor**/
+
+.contenedor{
+    
+    width: 99%;
+    margin: auto;
+}
+
+/** se le da el estilo al titulo**/
+h1{
+   
+    float: left;
+}
+
+header .contenedor{
+    
+    display: table;
+}
+
+/**modifico y le doy unos ajustes a todas las etiquetas section**/
+
+section{
+    
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+#bienvenidos{
+    
+    text-align: center;
+}
+footer .contenedor{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+.copy{
+    
+    font-size: 20px;
+}
+
+.redessociales{
+    
+    width: 100%;
+    text-align: center;
+    font-size: 29px;
+}
+
+.redessociales a{
+    
+    color: #333;
+    text-decoration: none;
+} 
